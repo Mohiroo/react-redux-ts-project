@@ -1,0 +1,31 @@
+.post__btn {
+  margin: 0 15px;
+  padding: 7px 19px;
+
+  background: #3498db;
+  border: none;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.471;
+  border-radius: 6px;
+  color: white;
+
+  cursor: pointer;
+}
+
+.post__btn_delete {
+  padding: 7px 19px;
+
+  background: none;
+  border: none;
+  border: 1px solid #e74c3c;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.471;
+  border-radius: 6px;
+  color: #e74c3c;
+
+  cursor: pointer;
+}
