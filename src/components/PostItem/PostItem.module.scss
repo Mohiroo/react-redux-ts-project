@@ -1,0 +1,27 @@
+.post_item {
+  display: flex;
+  justify-content: space-between;
+
+  border-left: 3px solid #bbbbbb;
+  margin: 0 0 25px 0;
+  padding: 0 0 0 15px;
+}
+
+.post_body {
+  font-size: large;
+
+  .post_title {
+    margin: 0 0 6px 0;
+
+    font-weight: bold;
+  }
+
+  .post_text {
+    margin: 0;
+  }
+}
+
+.post_btn {
+  display: flex;
+  align-items: center;
+}
