@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { IUser } from "../../models/IUser";
-import { fetchUsers } from "../action-creators/FetchUsers";
+import { fetchUsers } from "../action-creators/FetchData";
 
 interface UserState {
   users: IUser;
@@ -12,7 +12,9 @@ const initialState: UserState = {
   users: {
     id: 0,
     name: "",
+    username: "",
     email: "",
+    phone: "",
   },
   isLoading: false,
   error: "",
