@@ -1,9 +1,11 @@
 .searching {
-  width: 80%;
-  margin: 40px auto 40px;
-
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    margin-top: 20px;
+  }
 }
 
 .posts__title {
