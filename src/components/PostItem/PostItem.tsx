@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
-import { IPost } from '../../models/IPost';
-import PostButton from '../UI/button/PostButton';
-import styles from './PostItem.module.scss'
+import React, { FC } from "react";
+import { IPost } from "../../models/IPost";
+import Button, { ButtonMode } from "../UI/button/Button";
+import styles from "./PostItem.module.scss";
 
 interface PostItemProps {
   post: IPost;
@@ -9,7 +9,7 @@ interface PostItemProps {
   goToPost: (id: number) => void;
 }
 
-const PostItem: FC<PostItemProps> = ({post, hide, goToPost}) => {
+const PostItem: FC<PostItemProps> = ({ post, hide, goToPost }) => {
   return (
     <div className={styles.post_item}>
       <div className={styles.post_body}>
@@ -19,12 +19,15 @@ const PostItem: FC<PostItemProps> = ({post, hide, goToPost}) => {
         <p className={styles.post_text}>{post.body}</p>
       </div>
       <div className={styles.post_btn}>
-        <PostButton
+        <Button
+          mode={ButtonMode.default}
           onClick={() => goToPost(post.id)}
+          text={"Посмотреть"}
         />
-        <PostButton
-          delete={true}
+        <Button
+          mode={ButtonMode.hide}
           onClick={() => hide(post)}
+          text={"Скрыть"}
         />
       </div>
     </div>
