@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import styles from './PostInput.module.scss';
+import React, { FC } from "react";
+import styles from "./PostInput.module.scss";
 
 interface PostInputProps {
   value: string;
@@ -9,7 +9,13 @@ interface PostInputProps {
 
 const PostInput: FC<PostInputProps> = (props) => {
   return (
-    <input className={styles.postInput} value={props.value} onChange={props.onChange} type='text' placeholder={props.placeholder}/>
+    <input
+      className={styles.postInput}
+      value={props.value}
+      onChange={props.onChange}
+      type="text"
+      placeholder={`     ${props.placeholder}`}
+    />
   );
 };
 
