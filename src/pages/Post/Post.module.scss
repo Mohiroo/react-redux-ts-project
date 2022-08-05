@@ -1,0 +1,25 @@
+.post_id {
+  width: 80%;
+  margin: 80px auto;
+  padding: 0 30px 0;
+}
+
+.post {
+  margin-bottom: 60px;
+
+  .post__title {
+    margin: 0 0 30px;
+
+    letter-spacing: 6px;
+  }
+
+  .post__author {
+    margin: 30px 0;
+
+    font-weight: bold;
+  }
+
+  .post__body {
+    width: 60%;
+  }
+}
