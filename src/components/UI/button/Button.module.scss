@@ -18,7 +18,7 @@
   @include btn(#3498db, none, white)
 }
 
-.btn_delete {
+.btn_hide {
   @include btn(none, 1px solid #e74c3c, #e74c3c);
 }
 
@@ -29,6 +29,3 @@
 .btn_disabled {
   @include btn(#bdc3c7, none, white)
 }
-
-
-// background-color: #1abc9c;
