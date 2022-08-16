@@ -19,7 +19,7 @@ const About = () => {
         <li>Использование React, Redux</li>
         <li>Создание SPA</li>
         <li>Работа с HTTP запросами с помощью Redux Toolkit (RTK Query - /posts и /post, AsyncThunk - /users и /user)</li>
-        <li>Работа с анимациями - React Transition Group</li>
+        <li>Работа с анимацией - React Transition Group</li>
         <li>Работа с авторизацией и навигацией - React Router</li>
         <li>Практика TypeScript</li>
         <li>Практика верстки, декомпозиции, React-хуков</li>
