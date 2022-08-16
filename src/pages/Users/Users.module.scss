@@ -1,0 +1,12 @@
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .users_title {
+    margin: 40px 0 40px;
+
+    letter-spacing: 6px;
+    color: #212529;
+  }
+}
