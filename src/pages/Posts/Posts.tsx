@@ -53,8 +53,7 @@ const Posts = () => {
     lastElement.current && observer.current.observe(lastElement.current);
   }, [isLoadingPosts]);
 
-  const hidePost = (post: IPost) =>
-    setPosts(posts.filter((p) => p.id !== post.id));
+  const hidePost = (post: IPost) => setPosts(posts.filter((p) => p.id !== post.id));
 
   const goToPost = (id: number) => navigate(`/post/${id}`);
 
@@ -75,6 +74,9 @@ const Posts = () => {
               onClick={() => setPostsLimit(totalPosts!)}
               text={"Показать все посты"}
             />
+            <p>
+              Загружено {postsLimit} из {totalPosts} постов
+            </p>
           </div>
           <PostList posts={sortedPosts} hide={hidePost} goToPost={goToPost} />
           {loadingAvailable && (
