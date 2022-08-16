@@ -1,0 +1,34 @@
+.user {
+  margin: 80px auto;
+  padding: 0 30px 0;
+
+  .user_title {
+    margin: 40px 0 40px;
+    text-align: center;
+  }
+}
+
+.user_info {
+  display: flex;
+  justify-content: space-between;
+
+  .user_posts {
+    width: 70%;
+
+    div {
+      max-width: 100%;
+    }
+  }
+
+  .user_details {
+    width: 27%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      margin: 0 0 10px;
+    }
+  }
+}
