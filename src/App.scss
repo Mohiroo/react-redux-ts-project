@@ -23,8 +23,11 @@ nav {
   }
 
   .nav__home-link {
+    max-width: 190px;
+    width: 100%;
+
     padding: 0 0 0 20px;
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .nav__main-links {
@@ -33,7 +36,19 @@ nav {
     align-items: center;
     flex-grow: 1;
 
-    padding: 0 60px;
+    padding: 0 20px;
+  }
+
+  .nav__user_button {
+    max-width: 190px;
+    width: 100%;
+
+    padding: 0 20px 0 0;
+
+    button {
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
 
