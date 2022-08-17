@@ -18,7 +18,7 @@ const Login: FC = () => {
   return (
     <div className={styles.login}>
       <h1 className={styles.login__title}>Авторизация</h1>
-
+      <p className={styles.info_text}>Введите любые значения или оставте поля пустыми, нажмите на кнопку (БД нет)</p>
       <input
         className={styles.login__input}
         type={"text"}
