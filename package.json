@@ -2,6 +2,7 @@
   "name": "react-redux-ts-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mohiroo.github.io/react-redux-ts-project",
   "dependencies": {
     "@csstools/normalize.css": "^12.0.0",
     "@reduxjs/toolkit": "^1.8.3",
