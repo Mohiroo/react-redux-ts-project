@@ -4,6 +4,8 @@ import styles from "./Button.module.scss";
 export enum ButtonMode {
   hide = "btn_hide",
   user = "btn_user",
+  login = "btn_login",
+  logout = "btn_logout",
   default = "btn",
 }
 

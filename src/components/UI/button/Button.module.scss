@@ -29,3 +29,11 @@
 .btn_disabled {
   @include btn(#bdc3c7, none, white)
 }
+
+.btn_login {
+  @include btn(#2ecc71, none, white)
+}
+
+.btn_logout {
+  @include btn(#e74c3c, none, white)
+}
