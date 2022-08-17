@@ -3,11 +3,13 @@ import { PostAPI } from "../services/PostService";
 import usersReducer from "./reducers/UsersSlice";
 import userByIdReducer from "./reducers/UserByIdSlice";
 import userPostsReducer from "./reducers/UserPostsSlice";
+import AuthReducer from "./reducers/AuthSlice";
 
 const rootReducer = combineReducers({
   usersReducer,
   userByIdReducer,
   userPostsReducer,
+  AuthReducer,
   [PostAPI.reducerPath]: PostAPI.reducer,
 });
 
